@@ -224,7 +224,8 @@ position: absolute;
 top: 0px;
 height: 100%;
 width:100%;
-background-image: url(http://media.giphy.com/media/czevJlexlxAyc/original.gif);
+background-image: url(http://legacy-cdn.smosh.com/smosh-pit/082010/sw-kick.gif);
+/*background-image: url(http://media.giphy.com/media/czevJlexlxAyc/original.gif);*/
 background-size: cover;
 background-position: 50% 50%;
 }
