@@ -248,3 +248,30 @@ background-color: #000000;
 display: inline-block;
 padding: 5px 15px;
 }
+@-webkit-keyframes rock {
+  0%   {-webkit-transform: rotate(0deg); color:#00FF00;}
+  25%  {-webkit-transform: rotate(-4deg); color:#FF0000}
+  50%  {-webkit-transform: rotate(0deg); color:#00FF00;}
+  75%  {-webkit-transform: rotate(4deg); color:#0000FF}
+  100% {-webkit-transform: rotate(0deg); color:#00FF00}
+}
+@keyframes rock {
+  0%   {transform: rotate(0deg); color:#00FF00;}
+  25%  {transform: rotate(-4deg); color:#FF0000}
+  50%  {transform: rotate(0deg); color:#00FF00;}
+  75%  {transform: rotate(4deg); color:#0000FF}
+  100% {transform: rotate(0deg); color:#00FF00}
+}
+
+body *
+  {
+    -webkit-animation-name:            rock; 
+    -webkit-animation-duration:        8.0s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name:            rock; 
+    animation-duration:        8.0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+  }
